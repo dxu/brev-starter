@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import "./colors.module.scss";
+@import "./variables.module.scss";
+
+// Overrides for bulma
+
+$gap: 32px;
+
+@import "../../../node_modules/bulma/bulma.sass";
+
+@include touch {
+}
+
+@include tablet {
+}
+
+@include desktop {
+}
+
+@include mobile {
+}
+
+@include tablet-only {
+}
+
+@include desktop-only {
+}
+
+@include widescreen-only {
+}
+
+@include fullhd {
+}
+
+:export {
+  tablet: $tablet;
+  desktop: $desktop;
+  widescreenenabled: $widescreen-enabled;
+  widescreen: $widescreen;
+  fullhd: $fullhd;
+  fullhdenabled: $fullhd-enabled;
+  radiuslarge: $radius-large;
+}

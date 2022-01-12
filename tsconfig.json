@@ -24,8 +24,8 @@
       "styles": ["styles/"],
       "modules": ["styles/modules"],
       "scripts": ["scripts/"],
-      "lib": ["scripts/lib"],
-    },
+      "lib": ["scripts/lib"]
+    }
   },
   "include": [
     "src"

@@ -1,12 +1,12 @@
 @charset "utf-8";
-@import "./colors.module.scss";
-@import "./variables.module.scss";
+@import "./colors.scss";
+@import "./variables.scss";
 
 // Overrides for bulma
 
 $gap: 32px;
 
-@import "../../../node_modules/bulma/bulma.sass";
+@import "~bulma/bulma.sass";
 
 @include touch {
 }

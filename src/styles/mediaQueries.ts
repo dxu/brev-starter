@@ -1,5 +1,5 @@
-import bulma from "./bulma.module.scss";
-import { css } from "@emotion/react";
+import bulma from "./modules/bulma.module.scss";
+import { css } from "@emotion/css";
 
 enum Device {
   // up to 768px

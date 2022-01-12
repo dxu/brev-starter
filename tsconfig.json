@@ -21,10 +21,8 @@
     "jsx": "react-jsx",
     "baseUrl": "./src",
     "paths": {
-      "styles": ["styles/"],
-      "modules": ["styles/modules"],
-      "scripts": ["scripts/"],
-      "lib": ["scripts/lib"]
+      "@modules/*": ["styles/modules/*"],
+      "@lib/*": ["scripts/lib/*"]
     }
   },
   "include": [

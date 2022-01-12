@@ -1,6 +1,6 @@
 import React, { PropsWithChildren, forwardRef } from "react";
 import { cx, css, ClassNamesArg } from "@emotion/css/macro";
-import sassVariables from "styles/modules/variables.module.scss";
+import sassVariables from "@modules/variables.scss";
 import { until } from "styles/mediaQueries";
 
 export const HEADER_FULL_HEIGHT = 80;

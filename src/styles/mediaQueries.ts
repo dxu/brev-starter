@@ -1,4 +1,4 @@
-import bulma from "./modules/bulma.module.scss";
+import bulma from "@modules/bulma.scss";
 import { css } from "@emotion/css";
 
 enum Device {

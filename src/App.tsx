@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "./logo.svg";
 import "styles/App.scss";
+import { Counter } from "scripts/examples/Counter";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Counter />
         <img src={logo} className="App-logo" alt="logo" />
         <p> Vite + React!</p>
         <p>
